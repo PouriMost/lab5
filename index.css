@@ -45,8 +45,21 @@
     grid-column: 2 / span 2;
     grid-row: 3 / span 3;
   }
-}
 
+  footer div {
+    display: flex;
+    flex-direction: row;
+    padding: 4em;
+    justify-content: space-between;
+  }
+  */ footer div img {
+    order: 2;
+  }
+
+  footer div p {
+    margin-top: 0;
+  }
+}
 #flexbox {
   display: flex;
   flex-direction: column;
